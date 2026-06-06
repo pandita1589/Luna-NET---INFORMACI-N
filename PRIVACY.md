@@ -21,7 +21,7 @@ Al añadir Luna NET a tu servidor o usar sus funciones, recopilamos y almacenamo
 - **Perfil de usuario personalizado** — datos opcionales como biografía o campos de perfil configurados voluntariamente.
 - **Configuración del servidor** — IDs de canales, roles y ajustes configurados por administradores. No incluye contenido de mensajes.
 
-> ⚠️ **El contenido de los mensajes NO se almacena.** Se procesa en memoria de forma transitoria únicamente para ejecutar comandos, otorgar XP y realizar traducciones automáticas, y se descarta inmediatamente tras el procesamiento.
+> ⚠️ **El contenido de los mensajes NO se almacena.** Se procesa en memoria de forma transitoria únicamente para ejecutar comandos, otorgar XP, realizar traducciones automáticas y generar las respuestas de la IA de Luna, y se descarta inmediatamente tras el procesamiento. La IA de Luna **no guarda historial de conversaciones** ni aprende de ellas: cada respuesta se genera de forma puntual a partir de instrucciones predefinidas.
 
 ---
 
@@ -32,6 +32,7 @@ Al añadir Luna NET a tu servidor o usar sus funciones, recopilamos y almacenamo
 - Mostrar el estado AFK de un usuario cuando es mencionado.
 - Enviar felicitaciones de cumpleaños automáticas donde el usuario lo haya habilitado explícitamente.
 - Traducir mensajes en tiempo real mediante la **API de Groq** (solo si el servidor tiene habilitada la auto-traducción).
+- Generar respuestas y textos con la personalidad de Luna mediante IA (Groq / LLaMA), a partir de instrucciones predefinidas por Moon Studios.
 - Gestionar la configuración de administración del servidor (bienvenidas, tickets, paneles de roles, etc.).
 
 ---
@@ -48,7 +49,7 @@ No vendemos, alquilamos ni comercializamos tus datos. Los compartimos únicament
 
 - **Discord Inc.** — plataforma base a través de la cual opera el bot.
 - **Firebase / Google Cloud** — almacenamiento de base de datos (Firestore).
-- **Groq Inc. (API LLaMA)** — el contenido de los mensajes se envía exclusivamente para traducción automática en tiempo real. Groq no retiene los datos según su política. Solo se activa si el administrador habilita la auto-traducción.
+- **Groq Inc. (API LLaMA)** — potencia las funciones de IA de Luna: la traducción automática en tiempo real y la generación de respuestas con su personalidad. El texto necesario para estas funciones —que puede incluir el contenido de un mensaje o los datos que proporciones a un comando— se envía a Groq de forma transitoria para procesarlo y no se almacena. Según su política, Groq no retiene los datos. La auto-traducción solo se activa si el administrador del servidor la habilita.
 - **Procesadores de pago (PayPal, MercadoPago)** — exclusivamente para gestionar suscripciones Premium. No tenemos acceso a datos bancarios completos.
 
 ---

@@ -42,7 +42,7 @@
 - [✨ Funciones actuales](#-funciones-actuales)
 - [💎 Premium](#-premium)
 - [🎐 Dashboard](#-dashboard)
-- [🌐 Traducción en tiempo real](#-traducción-en-tiempo-real)
+- [🤖 IA de Luna y traducción](#-ia-de-luna-y-traducción)
 - [🔒 Seguridad & Privacidad](#-seguridad--privacidad)
 - [📜 Novedades](#-novedades)
 - [🗺️ Roadmap](#-roadmap)
@@ -59,7 +59,7 @@
   <img src="./assets/hero.png" alt="Luna NET" width="65%">
 </p>
 
-**Luna NET** es un bot todo-en-uno para Discord desarrollado por **Moon Studios**, con una identidad propia inspirada en la **estética anime** y la **cultura japonesa**. Reúne moderación, niveles, tickets, música, perfiles y un panel de control web en una sola asistente para tu servidor.
+**Luna NET** es un bot todo-en-uno para Discord desarrollado por **Moon Studios**, con una identidad propia inspirada en la **estética anime** y la **cultura japonesa**. Reúne moderación, niveles, tickets, música, perfiles, traducción y un panel de control web en una sola asistente, con una personalidad potenciada por **IA**.
 
 El objetivo no es ser "un bot más", sino que cada comunidad sienta que tiene una asistente con personalidad e identidad visual propias.
 
@@ -102,6 +102,7 @@ Lo que Luna NET ya hace hoy en tu servidor:
 - 🪪 **Perfiles** — perfil de usuario personalizable (biografía y campos propios).
 - 🎭 **Paneles de roles** — autorroles mediante paneles configurables.
 - 👋 **Bienvenidas** — mensajes de bienvenida configurables.
+- 🤖 **IA de Luna (Groq · LLaMA)** — la personalidad y las respuestas de Luna están potenciadas por IA. *(No guarda historial ni aprende de las conversaciones.)*
 - 🌐 **Auto-traducción** — traducción de mensajes en tiempo real (opt-in por servidor).
 - 🎐 **Dashboard web** — control total desde el navegador con inicio de sesión por Discord.
 
@@ -132,13 +133,15 @@ El **Dashboard web** es el centro de control de Luna NET: configura cada funció
 
 ---
 
-## 🌐 Traducción en tiempo real
+## 🤖 IA de Luna y traducción
 
-Luna NET puede traducir los mensajes de tu servidor automáticamente **ES ⇄ JP** (y otros idiomas), en tiempo real.
+La personalidad y las respuestas de Luna están potenciadas por **inteligencia artificial** (API de **Groq**, modelos **LLaMA**): genera texto con su estilo propio a partir de instrucciones predefinidas, y traduce mensajes en tiempo real **ES ⇄ JP** (y otros idiomas).
 
-- Se apoya en la **API de Groq (modelos LLaMA)** para una traducción rápida.
-- Es **opt-in**: solo funciona si un administrador la activa en el servidor.
-- El contenido de los mensajes se procesa de forma transitoria para traducir y **no se almacena**. Según su política, Groq tampoco retiene los datos.
+- 🧠 La IA da voz a la personalidad de Luna; **no guarda historial de conversaciones ni aprende** de ellas: cada respuesta se genera de forma puntual.
+- 🌐 La **auto-traducción** es opt-in: solo funciona si un administrador la activa en el servidor.
+- 🔒 El texto necesario se procesa de forma transitoria y **no se almacena**. Según su política, Groq no retiene los datos.
+
+> 📄 Reflejado en la [Política de Privacidad](./PRIVACY.md) y en los [Términos](./TERMS.md).
 
 ---
 
@@ -147,7 +150,7 @@ Luna NET puede traducir los mensajes de tu servidor automáticamente **ES ⇄ JP
 La privacidad es una prioridad. En resumen:
 
 - 🗄️ Los datos se almacenan en **Firebase / Firestore (Google Cloud)**, con cifrado en reposo (AES-256) y en tránsito (TLS/HTTPS).
-- 🚫 **El contenido de tus mensajes no se almacena ni se analiza.** Solo se procesa en memoria de forma transitoria para ejecutar comandos, otorgar XP y traducir, y se descarta enseguida.
+- 🚫 **El contenido de tus mensajes no se almacena.** Solo se procesa de forma transitoria para ejecutar comandos, otorgar XP, traducir y generar las respuestas de la IA, y se descarta enseguida. La IA no guarda historial de conversaciones.
 - 🔐 El acceso a la base de datos está restringido por reglas de seguridad de Firebase y solo es accesible por personal autorizado de Moon Studios.
 - 🗑️ Puedes solicitar la eliminación total de tus datos (plazo máximo de 30 días) por el servidor de soporte o por correo.
 
@@ -182,13 +185,13 @@ La privacidad es una prioridad. En resumen:
 
 Lo que viene para Luna NET. *(Funciones planeadas, aún no disponibles.)*
 
-- [ ] 🤖 **AI Powered Anime System** — IA conversacional con personalidad anime configurable y aprendizaje continuo.
+- [ ] 🧠 **Memoria y contexto conversacional** — que la IA recuerde el hilo de la charla y permita personalizar más su personalidad por servidor.
 - [ ] 🇯🇵 **Japanese Experience** — eventos estacionales y referencias culturales (Hanami, Tanabata, Tsukimi…).
 - [ ] 🎆 **Dynamic Events System** — eventos globales con recompensas, adaptados por región.
 - [ ] 🎨 **Personalización avanzada** — temas, colores y widgets exclusivos por servidor.
 - [ ] 🎐 **Dashboard Evolution** — nueva interfaz, animaciones y mejoras de rendimiento.
 
-> ⚠️ Si llegas a implementar el sistema de IA conversacional, **actualiza la Política de Privacidad**: ese procesamiento de mensajes debe quedar declarado.
+> ✅ El uso actual de IA (respuestas y traducción vía Groq) ya está reflejado en la Política de Privacidad. Si más adelante añades **memoria conversacional**, vuelve a actualizarla.
 
 ---
 
@@ -241,7 +244,7 @@ Consulta el archivo [`LICENSE`](./LICENSE) y los [`TERMS.md`](./TERMS.md) para l
 
 <p align="center">
   <a href="https://discord.gg/5dR8p733Ac"><img src="https://img.shields.io/badge/Discord-Soporte-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=15101f" alt="Discord"></a>
-  <a href="https://luna-net.netlify.app"><img src="https://img.shields.io/badge/Web-lunanet.nellyx.xyz-9d6bff?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=15101f" alt="Web"></a>
+  <a href="https://lunanet.nellyx.xyz"><img src="https://img.shields.io/badge/Web-lunanet.nellyx.xyz-9d6bff?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=15101f" alt="Web"></a>
   <a href="mailto:studios.soporteplaykia@gmail.com"><img src="https://img.shields.io/badge/Email-soporte-ff8fc8?style=for-the-badge&logo=gmail&logoColor=white&labelColor=15101f" alt="Email"></a>
 </p>
 
