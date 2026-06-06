@@ -85,8 +85,6 @@ El objetivo no es ser "un bot más", sino que cada comunidad sienta que tiene un
 3. Abre el **Dashboard** para configurar las funciones a tu gusto.
 
 > 🔗 Web oficial: [luna-net.netlify.app](https://luna-net.netlify.app/) · Soporte: [discord.gg/5dR8p733Ac](https://discord.gg/5dR8p733Ac)
->
-> 💡 *El botón "Añadir a Discord" está en la web. Si quieres un enlace de invitación directo en el README, pega aquí la URL de autorización OAuth2 del bot.*
 
 ---
 
@@ -193,7 +191,7 @@ Lo nuevo en cada actualización de Luna NET. 🌙
 
 ---
 
-🗓️ *Las versiones anteriores se irán listando aquí debajo a medida que publiques nuevas actualizaciones.*
+🗓️ *Las versiones anteriores se irán listando aquí debajo.*
 
 ---
 
@@ -206,8 +204,6 @@ Lo que viene para Luna NET. *(Funciones planeadas, aún no disponibles.)*
 - [ ] 🎆 **Dynamic Events System** — eventos globales con recompensas, adaptados por región.
 - [ ] 🎨 **Personalización avanzada** — temas, colores y widgets exclusivos por servidor.
 - [ ] 🎐 **Dashboard Evolution** — nueva interfaz, animaciones y mejoras de rendimiento.
-
-> ✅ El uso actual de IA (respuestas y traducción vía Groq) ya está reflejado en la Política de Privacidad. Si más adelante añades **memoria conversacional**, vuelve a actualizarla.
 
 ---
 
