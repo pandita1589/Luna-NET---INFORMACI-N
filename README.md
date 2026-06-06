@@ -1,7 +1,7 @@
 <!-- ╔══════════════════════════════════════════════════════════════╗ -->
-<!--                         🌙 LUNA NET — README                      -->
-<!--      Las imágenes viven en ./assets/ — ajusta las rutas si        -->
-<!--      cambias la estructura del repositorio.                       -->
+<!--                  🌙 LUNA NET — README (v2.0.9)                    -->
+<!--   Producto cerrado de Moon Studios. Las imágenes viven en         -->
+<!--   ./assets/ — ajusta las rutas si cambias la estructura.          -->
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 
 <p align="center">
@@ -17,17 +17,19 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/versión-2.0.9-9d6bff?style=for-the-badge&labelColor=15101f" alt="Versión 2.0.9">
-  <img src="https://img.shields.io/badge/estado-en%20desarrollo-ff8fc8?style=for-the-badge&labelColor=15101f" alt="Estado">
+  <img src="https://img.shields.io/badge/estado-activo-7ee787?style=for-the-badge&labelColor=15101f" alt="Estado">
   <img src="https://img.shields.io/badge/plataforma-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=15101f" alt="Discord">
   <img src="https://img.shields.io/badge/idiomas-ES%20%E2%87%84%20JP-c9a0ff?style=for-the-badge&labelColor=15101f" alt="Idiomas">
-  <img src="https://img.shields.io/badge/licencia-revisar-lightgrey?style=for-the-badge&labelColor=15101f" alt="Licencia">
+  <img src="https://img.shields.io/badge/licencia-propietaria-ff5d5d?style=for-the-badge&labelColor=15101f" alt="Software propietario">
+  <img src="https://img.shields.io/badge/by-Moon%20Studios-b083ff?style=for-the-badge&labelColor=15101f" alt="Moon Studios">
 </p>
 
 <p align="center">
-  <a href="#-instalación">Instalación</a> •
-  <a href="#-comandos-principales">Comandos</a> •
+  <a href="#-añadir-luna-net">Añadir bot</a> •
+  <a href="#-funciones-actuales">Funciones</a> •
+  <a href="#-premium">Premium</a> •
+  <a href="#-novedades">Novedades</a> •
   <a href="#-roadmap">Roadmap</a> •
-  <a href="#-changelog">Changelog</a> •
   <a href="#-soporte--enlaces">Soporte</a>
 </p>
 
@@ -36,20 +38,15 @@
 ## 📑 Tabla de contenidos
 
 - [🌸 Introducción](#-introducción)
-- [✨ Características principales](#-características-principales)
-- [🤖 AI Powered Anime System](#-ai-powered-anime-system)
-- [🎐 Dashboard Evolution](#-dashboard-evolution)
-- [🇯🇵 Japanese Experience](#-japanese-experience)
-- [🎆 Dynamic Events System](#-dynamic-events-system)
-- [🎨 Advanced Customization](#-advanced-customization)
-- [🔒 Security & Privacy](#-security--privacy)
-- [📋 Requisitos](#-requisitos)
-- [⚙️ Instalación](#-instalación)
-- [🔧 Configuración](#-configuración)
-- [📝 Comandos principales](#-comandos-principales)
+- [📥 Añadir Luna NET](#-añadir-luna-net)
+- [✨ Funciones actuales](#-funciones-actuales)
+- [💎 Premium](#-premium)
+- [🎐 Dashboard](#-dashboard)
+- [🌐 Traducción en tiempo real](#-traducción-en-tiempo-real)
+- [🔒 Seguridad & Privacidad](#-seguridad--privacidad)
+- [📜 Novedades](#-novedades)
 - [🗺️ Roadmap](#-roadmap)
-- [📜 Changelog](#-changelog)
-- [🤝 Contribuciones](#-contribuciones)
+- [⚖️ Legal](#-legal)
 - [🪪 Licencia](#-licencia)
 - [🖼️ Galería](#-galería)
 - [💜 Soporte & enlaces](#-soporte--enlaces)
@@ -62,281 +59,157 @@
   <img src="./assets/hero.png" alt="Luna NET" width="65%">
 </p>
 
-**Luna NET** no busca ser simplemente otro bot para Discord. El objetivo del proyecto es construir una **plataforma inteligente** capaz de ofrecer una experiencia única, inmersiva y altamente personalizable, inspirada en la **cultura japonesa**, la **estética anime** y las tecnologías más avanzadas de **inteligencia artificial**.
+**Luna NET** es un bot todo-en-uno para Discord desarrollado por **Moon Studios**, con una identidad propia inspirada en la **estética anime** y la **cultura japonesa**. Reúne moderación, niveles, tickets, música, perfiles y un panel de control web en una sola asistente para tu servidor.
 
-Queremos que cada comunidad sienta que posee una asistente propia: con personalidad, identidad visual y sistemas diseñados específicamente para mejorar la experiencia de sus usuarios. No un comando frío que responde, sino una compañera digital que acompaña a tu servidor día y noche.
+El objetivo no es ser "un bot más", sino que cada comunidad sienta que tiene una asistente con personalidad e identidad visual propias.
 
-> 🌙 **Filosofía del proyecto**
+> 🌙 **Filosofía**
 > No queremos crear un bot más. Queremos crear **una experiencia**.
 
 | | |
 |---|---|
-| 🧠 **Inteligente** | IA contextual con personalidad anime configurable |
-| 🎨 **Personalizable** | Temas, colores y widgets únicos por servidor |
-| 🇯🇵 **Cultural** | Eventos y referencias japonesas adaptadas al español |
-| ⚡ **Rápida** | Infraestructura escalable, ligera y estable |
-| 🔒 **Segura** | Privacidad y control de permisos como prioridad |
-| 💜 **24/7** | Disponible siempre, junto a tu comunidad |
+| 🛡️ **Completa** | Moderación, niveles, tickets, música y más |
+| 🎐 **Con panel web** | Configura todo desde el Dashboard, sin comandos |
+| 🌐 **Multilingüe** | Auto-traducción en tiempo real ES ⇄ JP |
+| ⚡ **Estable** | Infraestructura en Google Cloud / Firebase |
+| 🔒 **Segura** | El contenido de tus mensajes no se almacena |
+| 💜 **Activa** | En desarrollo continuo por Moon Studios |
 
 ---
 
-## ✨ Características principales
+## 📥 Añadir Luna NET
 
-Luna NET integra en un solo ecosistema las funciones que normalmente requieren varios bots distintos:
+1. Entra al sitio web oficial y pulsa **"Añadir a Discord"**, o usa el botón de invitación del bot.
+2. Selecciona tu servidor y aprueba los permisos.
+3. Abre el **Dashboard** para configurar las funciones a tu gusto.
 
-- 🛡️ **Moderación avanzada** — automoderación, filtros, anti-spam, anti-raid y registros de auditoría.
-- 🤖 **Automatización** — roles por reacción, mensajes de bienvenida/despedida, tareas programadas y flujos personalizados.
-- 💰 **Economía** — moneda virtual, tienda, recompensas diarias, rankings y minijuegos económicos.
-- 🎮 **Diversión & minijuegos** — entretenimiento integrado para mantener activa a la comunidad.
-- 🌐 **Multilingüe** — soporte español ⇄ japonés con traducción inteligente.
-- 🎐 **Dashboard web** — control total desde el navegador, sin necesidad de comandos.
-- 🌸 **Identidad anime** — estética, personalidad y experiencias temáticas propias.
-
-> ⚙️ *El catálogo completo de funciones por módulo se documenta en la* [**Wiki**](#) *(pendiente de publicar).*
+> 🔗 Web oficial: `lunanet.nellyx.xyz` · Soporte: [discord.gg/5dR8p733Ac](https://discord.gg/5dR8p733Ac)
+>
+> ⚠️ *Pega aquí el enlace de invitación real del bot (la URL de autorización OAuth2 de Discord).*
 
 ---
 
-## 🤖 AI Powered Anime System
+## ✨ Funciones actuales
 
-El sistema de inteligencia artificial es uno de los **pilares fundamentales** del proyecto y el corazón de lo que diferencia a Luna NET.
+Lo que Luna NET ya hace hoy en tu servidor:
 
-### Características
+- 🛡️ **Moderación** — herramientas de gestión y control para administradores.
+- 📈 **Niveles, XP y rankings** — sube de nivel por actividad, con ranking por servidor y campeón global.
+- 🎫 **Tickets** — sistema de tickets de soporte para tu comunidad.
+- 🎵 **Música** — reproducción de música en canales de voz.
+- 💤 **AFK** — marca tu ausencia con `/afk`; Luna avisa cuando te mencionen.
+- 🎂 **Cumpleaños** — felicitaciones automáticas con `/birthday` (solo día y mes, opcional y desactivable).
+- 🪪 **Perfiles** — perfil de usuario personalizable (biografía y campos propios).
+- 🎭 **Paneles de roles** — autorroles mediante paneles configurables.
+- 👋 **Bienvenidas** — mensajes de bienvenida configurables.
+- 🌐 **Auto-traducción** — traducción de mensajes en tiempo real (opt-in por servidor).
+- 🎐 **Dashboard web** — control total desde el navegador con inicio de sesión por Discord.
 
-- ✦ Conversaciones más naturales y fluidas.
-- ✦ Respuestas contextuales que recuerdan el hilo de la charla.
-- ✦ Personalidad anime configurable por servidor (tono, carácter, forma de hablar).
-- ✦ Comprensión de expresiones y matices del japonés.
-- ✦ Traducción inteligente **JP ⇄ ES** en tiempo real.
-- ✦ Adaptación al estilo y la jerga de cada comunidad.
-- ✦ Aprendizaje continuo para mejorar progresivamente la experiencia.
-
-El objetivo es que Luna NET **deje de sentirse como un bot tradicional** y evolucione hacia una verdadera compañera digital.
-
-> 🔐 **Nota de transparencia:** todo procesamiento de mensajes mediante IA debe documentarse en la [Política de Privacidad](#-security--privacy) e idealmente ser **opt-in** por servidor. Los usuarios deben saber qué datos se procesan y con qué proveedor.
-
----
-
-## 🎐 Dashboard Evolution
-
-La plataforma web se renueva por completo para ofrecer una experiencia moderna y visualmente atractiva. El Dashboard será el **centro de control principal** de todo el ecosistema Luna NET.
-
-### Mejoras planeadas
-
-- 🌸 Nueva interfaz inspirada en anime.
-- ✨ Animaciones fluidas y transiciones suaves.
-- 🎨 Sistema avanzado de colores y temas.
-- ⚡ Optimización de rendimiento (carga rápida, menos consumo).
-- 📱 Compatibilidad total con dispositivos móviles.
-- 🖥️ Componentes interactivos y dinámicos en tiempo real.
-- 🔒 Mejoras en privacidad y seguridad del panel.
+> 💡 Escribe `/help` en tu servidor para ver la lista completa de comandos.
 
 ---
 
-## 🇯🇵 Japanese Experience
+## 💎 Premium
 
-Uno de los aspectos más importantes del proyecto es la integración de elementos inspirados en la **cultura japonesa**, adaptados para que cualquier comunidad hispanohablante pueda disfrutarlos.
+Luna NET ofrece un plan **Premium** opcional con funciones y beneficios ampliados.
 
-### Integraciones
+- Pagos gestionados de forma segura mediante **PayPal** y **MercadoPago**.
+- Moon Studios no tiene acceso a tus datos bancarios completos.
+- Consulta beneficios y precios actuales en la web oficial o en el servidor de soporte.
 
-- 🌸 Eventos estacionales.
-- 🎋 Festividades japonesas.
-- 🏮 Celebraciones especiales.
-- 📖 Terminología anime.
-- 🗾 Referencias culturales adaptadas al español.
-- ✨ Experiencias temáticas dentro de Discord y la Web.
-
-Esto da a Luna NET una **identidad única** que la distingue de cualquier otro proyecto existente.
+> ⚠️ *Añade aquí la tabla de beneficios y precios reales del plan Premium.*
 
 ---
 
-## 🎆 Dynamic Events System
+## 🎐 Dashboard
 
-Un sistema **global de eventos** capaz de adaptarse a distintos países y regiones, mezclando celebraciones occidentales y japonesas.
+El **Dashboard web** es el centro de control de Luna NET: configura cada función sin escribir comandos.
 
-| Occidentales | Japonesas |
-|---|---|
-| 🎄 Navidad | 🌸 Hanami |
-| 🎃 Halloween | 🎋 Tanabata |
-| 🎇 Año Nuevo | 🌕 Tsukimi |
-| 💘 San Valentín | 🏮 Festivales estacionales |
-| 🎉 Fiestas nacionales | ⛩️ Celebraciones culturales |
-
-Cada evento cuenta con **recompensas, animaciones, actividades especiales y contenido exclusivo** para las comunidades.
+- Inicio de sesión seguro con **Discord OAuth2**.
+- Configuración de bienvenidas, tickets, paneles de roles, niveles e idioma.
+- Recuerda tu servidor seleccionado y tus preferencias.
+- Interfaz inspirada en anime, pensada también para móvil.
 
 ---
 
-## 🎨 Advanced Customization
+## 🌐 Traducción en tiempo real
 
-La personalización es uno de los mayores puntos fuertes de Luna NET. Cada comunidad puede construir su **propia identidad** dentro del ecosistema.
+Luna NET puede traducir los mensajes de tu servidor automáticamente **ES ⇄ JP** (y otros idiomas), en tiempo real.
 
-### Opciones
-
-- ✦ Temas personalizados.
-- ✦ Colores dinámicos.
-- ✦ Widgets exclusivos.
-- ✦ Apariencias únicas.
-- ✦ Sistemas modulares (activa solo lo que usas).
-- ✦ Configuración avanzada por servidor.
-- ✦ Experiencias completamente adaptables.
+- Se apoya en la **API de Groq (modelos LLaMA)** para una traducción rápida.
+- Es **opt-in**: solo funciona si un administrador la activa en el servidor.
+- El contenido de los mensajes se procesa de forma transitoria para traducir y **no se almacena**. Según su política, Groq tampoco retiene los datos.
 
 ---
 
-## 🔒 Security & Privacy
+## 🔒 Seguridad & Privacidad
 
-La seguridad de usuarios y servidores es una **prioridad absoluta**.
+La privacidad es una prioridad. En resumen:
 
-### Objetivos
+- 🗄️ Los datos se almacenan en **Firebase / Firestore (Google Cloud)**, con cifrado en reposo (AES-256) y en tránsito (TLS/HTTPS).
+- 🚫 **El contenido de tus mensajes no se almacena ni se analiza.** Solo se procesa en memoria de forma transitoria para ejecutar comandos, otorgar XP y traducir, y se descarta enseguida.
+- 🔐 El acceso a la base de datos está restringido por reglas de seguridad de Firebase y solo es accesible por personal autorizado de Moon Studios.
+- 🗑️ Puedes solicitar la eliminación total de tus datos (plazo máximo de 30 días) por el servidor de soporte o por correo.
 
-- ⚡ Protección de datos.
-- ⚡ Sistemas anti-abuso.
-- ⚡ Control avanzado de permisos.
-- ⚡ Auditorías inteligentes.
-- ⚡ Monitoreo en tiempo real.
-- ⚡ Infraestructura segura y escalable.
-
-> 📄 **Documentos recomendados antes del lanzamiento público:**
-> - `PRIVACY.md` — qué datos se recopilan, cuánto se conservan y cómo se eliminan.
-> - `TERMS.md` — términos de servicio.
-> - Cumplimiento de los [Términos de Desarrollador de Discord](https://discord.com/developers/docs/policies-and-agreements/developer-terms-of-service) y, si aplica, del **RGPD/GDPR** para usuarios europeos.
+📄 Detalles completos en los documentos legales más abajo.
 
 ---
 
-## 📋 Requisitos
+## 📜 Novedades
 
-> ⚠️ **Esta sección es una plantilla.** Ajusta las versiones y el stack reales de Luna NET. Aquí se asume un stack común de bots de Discord (Node.js + discord.js); si usas Python (discord.py / Pycord), reemplázalo.
+> 🗒️ Sigue [Keep a Changelog](https://keepachangelog.com/es-ES/) y [SemVer](https://semver.org/lang/es/).
+> ⚠️ **Rellena esta sección con los cambios reales de cada versión.** Las entradas de abajo son una plantilla de ejemplo.
 
-- [Node.js](https://nodejs.org/) `>= 18.x` (LTS recomendado)
-- [npm](https://www.npmjs.com/) `>= 9.x` / [pnpm](https://pnpm.io/) / [yarn](https://yarnpkg.com/)
-- Una base de datos (p. ej. **PostgreSQL**, **MongoDB** o **MySQL**) — *indica la real*
-- Un **Bot Token** del [Portal de Desarrolladores de Discord](https://discord.com/developers/applications)
-- (Opcional) Clave de API del proveedor de IA usado por el *AI Powered Anime System*
+### `v2.0.9` — *(añadir fecha)*
 
----
+**✨ Añadido**
+- *(nuevas funciones de esta versión)*
 
-## ⚙️ Instalación
+**🎨 Estilos / Mejoras visuales**
+- *(cambios de interfaz, nuevos banners o temas)*
 
-> ⚠️ **Plantilla.** Sustituye la URL del repositorio, gestor de paquetes y comandos por los reales.
+**🔧 Cambiado**
+- *(mejoras de rendimiento, ajustes de comandos)*
 
-```bash
-# 1. Clonar el repositorio
-git clone https://github.com/TU-USUARIO/luna-net.git
-cd luna-net
+**🐛 Corregido**
+- *(errores solucionados)*
 
-# 2. Instalar dependencias
-npm install
-
-# 3. Copiar el archivo de entorno y rellenarlo
-cp .env.example .env
-
-# 4. Iniciar en desarrollo
-npm run dev
-
-# 5. Iniciar en producción
-npm start
-```
-
----
-
-## 🔧 Configuración
-
-> ⚠️ **Plantilla.** No subas tu archivo `.env` real al repositorio — añádelo a `.gitignore`. Nunca publiques tokens ni claves.
-
-```env
-# === Discord ===
-DISCORD_TOKEN=tu_token_aqui
-CLIENT_ID=id_de_la_aplicacion
-GUILD_ID=id_servidor_de_pruebas   # opcional, para slash commands de prueba
-
-# === Base de datos ===
-DATABASE_URL=postgresql://usuario:password@host:puerto/lunanet
-
-# === IA (AI Powered Anime System) ===
-AI_PROVIDER=tu_proveedor
-AI_API_KEY=tu_clave_aqui
-
-# === General ===
-DEFAULT_PREFIX=!
-DEFAULT_LANG=es        # es | jp
-NODE_ENV=development
-```
-
----
-
-## 📝 Comandos principales
-
-> ⚠️ **Plantilla.** Reemplaza por los comandos reales de Luna NET. Los nombres siguientes son ejemplos por categoría.
-
-| Comando | Descripción | Categoría |
-|---|---|---|
-| `/help` | Muestra el menú de ayuda | General |
-| `/config` | Configuración del servidor | General |
-| `/luna chat <mensaje>` | Conversa con la IA de Luna | 🤖 IA |
-| `/translate <texto>` | Traduce JP ⇄ ES | 🤖 IA |
-| `/ban` · `/kick` · `/mute` | Acciones de moderación | 🛡️ Moderación |
-| `/automod` | Configura la automoderación | 🛡️ Moderación |
-| `/daily` | Recompensa diaria | 💰 Economía |
-| `/shop` · `/balance` | Tienda y saldo | 💰 Economía |
-| `/event` | Información del evento activo | 🎆 Eventos |
-| `/theme` | Cambia el tema visual del servidor | 🎨 Personalización |
+> Versiones anteriores: *(añade aquí el histórico de `v2.0.x` y `v1.x`)*.
 
 ---
 
 ## 🗺️ Roadmap
 
-> ⚠️ Roadmap **sugerido** a partir de la visión del proyecto. Reordena según tus prioridades reales.
+Lo que viene para Luna NET. *(Funciones planeadas, aún no disponibles.)*
 
-- [ ] 🤖 **AI Powered Anime System** — personalidad configurable y traducción JP ⇄ ES.
-- [ ] 🎐 **Dashboard Evolution** — nueva interfaz web responsive.
-- [ ] 🇯🇵 **Japanese Experience** — eventos y referencias culturales.
-- [ ] 🎆 **Dynamic Events System** — eventos globales por región.
-- [ ] 🎨 **Advanced Customization** — temas, colores y widgets por servidor.
-- [ ] 🔒 **Security & Privacy** — auditorías y monitoreo en tiempo real.
-- [ ] 📄 Publicación de `PRIVACY.md`, `TERMS.md` y la Wiki.
+- [ ] 🤖 **AI Powered Anime System** — IA conversacional con personalidad anime configurable y aprendizaje continuo.
+- [ ] 🇯🇵 **Japanese Experience** — eventos estacionales y referencias culturales (Hanami, Tanabata, Tsukimi…).
+- [ ] 🎆 **Dynamic Events System** — eventos globales con recompensas, adaptados por región.
+- [ ] 🎨 **Personalización avanzada** — temas, colores y widgets exclusivos por servidor.
+- [ ] 🎐 **Dashboard Evolution** — nueva interfaz, animaciones y mejoras de rendimiento.
 
----
-
-## 📜 Changelog
-
-> ⚠️ **Estas entradas son un ejemplo derivado de las funciones descritas, no un registro verificado.** Reemplázalas por los cambios reales de cada versión. Recomendado seguir [Keep a Changelog](https://keepachangelog.com/es-ES/) y [SemVer](https://semver.org/lang/es/).
-
-### `v2.0.9` — *(rellenar fecha)*
-
-**✨ Añadido**
-- Bases del *AI Powered Anime System* (personalidad anime configurable).
-- Sistema inicial de eventos dinámicos.
-
-**🔧 Cambiado**
-- Mejoras de rendimiento e infraestructura.
-- Refinamiento de la interfaz del Dashboard.
-
-**🐛 Corregido**
-- *(listar correcciones reales de esta versión)*
-
-> Versiones anteriores: *(añadir histórico de `v2.0.x` y `v1.x` aquí)*.
+> ⚠️ Si llegas a implementar el sistema de IA conversacional, **actualiza la Política de Privacidad**: ese procesamiento de mensajes debe quedar declarado.
 
 ---
 
-## 🤝 Contribuciones
+## ⚖️ Legal
 
-¡Las contribuciones son bienvenidas! Si quieres aportar:
+Documentos legales de Luna NET (Moon Studios) — última actualización: **22 de marzo de 2026**.
 
-1. Haz un **fork** del repositorio.
-2. Crea una rama: `git checkout -b feat/mi-mejora`.
-3. Realiza tus cambios y haz **commit**: `git commit -m "feat: descripción"`.
-4. Sube la rama: `git push origin feat/mi-mejora`.
-5. Abre un **Pull Request** describiendo tu cambio.
-
-> 💡 Considera añadir un `CONTRIBUTING.md` y un `CODE_OF_CONDUCT.md` para guiar a quienes colaboren.
+- 🔐 **Política de Privacidad** → [`PRIVACY.md`](./PRIVACY.md) · [versión web](https://luna-net.netlify.app/privacy-policy)
+- 📜 **Términos de Servicio** → [`TERMS.md`](./TERMS.md)
+- 🍪 **Política de Cookies** → [`COOKIES.md`](./COOKIES.md)
+- 📧 Contacto de privacidad: `studios.soporteplaykia@gmail.com`
 
 ---
 
 ## 🪪 Licencia
 
-> ⚠️ **No se especificó licencia.** Sin una licencia, por defecto *todos los derechos quedan reservados* y nadie puede usar, copiar ni modificar el código legalmente. Si quieres que sea abierto, elige una (p. ej. **MIT**, **Apache-2.0** o **GPL-3.0**) y crea el archivo `LICENSE`. Puedes apoyarte en [choosealicense.com](https://choosealicense.com/).
+**Software propietario.** © 2026 Moon Studios. Todos los derechos reservados.
 
-```
-© 2026 Luna NET. (Definir licencia)
-```
+Luna NET **no es de código abierto**. Todo el código, diseño, marca, nombre, logotipos y recursos visuales son propiedad exclusiva de Moon Studios. Queda prohibido copiar, redistribuir, modificar, crear obras derivadas o realizar ingeniería inversa sin autorización expresa y por escrito.
+
+Consulta el archivo [`LICENSE`](./LICENSE) y los [`TERMS.md`](./TERMS.md) para los detalles completos.
 
 ---
 
@@ -366,27 +239,28 @@ NODE_ENV=development
 
 ## 💜 Soporte & enlaces
 
-> ⚠️ Reemplaza estos enlaces por los **reales y verificados** antes de publicar.
-
 <p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/Discord-%2FLUNANET-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=15101f" alt="Discord"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Web-LUNANET.GG-9d6bff?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=15101f" alt="Web"></a>
+  <a href="https://discord.gg/5dR8p733Ac"><img src="https://img.shields.io/badge/Discord-Soporte-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=15101f" alt="Discord"></a>
+  <a href="https://luna-net.netlify.app"><img src="https://img.shields.io/badge/Web-lunanet.nellyx.xyz-9d6bff?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=15101f" alt="Web"></a>
+  <a href="mailto:studios.soporteplaykia@gmail.com"><img src="https://img.shields.io/badge/Email-soporte-ff8fc8?style=for-the-badge&logo=gmail&logoColor=white&labelColor=15101f" alt="Email"></a>
 </p>
 
-- 🌐 **Sitio web:** `lunanet.gg` *(verificar)*
-- 💬 **Servidor de soporte:** `/lunanet` *(verificar)*
-- 🐛 **Reportar errores:** abre un *Issue* en este repositorio.
+- 🌐 **Sitio web:** `lunanet.nellyx.xyz`
+- 💬 **Servidor de soporte:** [discord.gg/5dR8p733Ac](https://discord.gg/5dR8p733Ac)
+- 📧 **Correo:** `studios.soporteplaykia@gmail.com`
+
+> ⚠️ **Dominio:** tu marca aparece en tres direcciones distintas — `lunanet.gg` (en los banners), `luna-net.netlify.app` (el enlace que me diste) y `lunanet.nellyx.xyz` (el dominio que tu propio sitio declara como canónico). Usé este último; **confirma cuál es el oficial y deja solo ese** en todo el README.
 
 ---
 
 <p align="center">
   <i>━━━━━━━━━━━━━━━━━━━━</i><br>
   🌙 <b>ルナネット</b><br>
-  ✨ Anime × IA × Innovación<br>
+  ✨ Anime × Comunidad × Innovación<br>
   ⚡ El futuro de Discord comienza aquí.<br>
   <i>━━━━━━━━━━━━━━━━━━━━</i>
 </p>
 
 <p align="center">
-  <sub>Hecho con 💜 bajo la luz de la luna.</sub>
+  <sub>Desarrollado con 💜 por <b>Moon Studios</b>, bajo la luz de la luna.</sub>
 </p>
