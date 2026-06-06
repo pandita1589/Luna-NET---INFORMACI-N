@@ -182,13 +182,6 @@ Lo nuevo en cada actualización de Luna NET. 🌙
 
 ### ✨ Versión 2.0.9
 
-> *Cuéntale a tu comunidad qué trae esta versión. Borra los ejemplos y escribe tus cambios reales.*
-
-- 🌟 **Novedades:** *(las funciones nuevas que añadiste)*
-- 🎨 **Estilos:** *(nuevos banners, colores o cambios visuales)*
-- ⚡ **Mejoras:** *(rendimiento, comandos más rápidos…)*
-- 🐛 **Arreglos:** *(errores corregidos)*
-
 ---
 
 🗓️ *Las versiones anteriores se irán listando aquí debajo.*
