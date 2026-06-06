@@ -83,9 +83,9 @@ El objetivo no es ser "un bot más", sino que cada comunidad sienta que tiene un
 2. Selecciona tu servidor y aprueba los permisos.
 3. Abre el **Dashboard** para configurar las funciones a tu gusto.
 
-> 🔗 Web oficial: `lunanet.nellyx.xyz` · Soporte: [discord.gg/5dR8p733Ac](https://discord.gg/5dR8p733Ac)
+> 🔗 Web oficial: [luna-net.netlify.app](https://luna-net.netlify.app/) · Soporte: [discord.gg/5dR8p733Ac](https://discord.gg/5dR8p733Ac)
 >
-> ⚠️ *Pega aquí el enlace de invitación real del bot (la URL de autorización OAuth2 de Discord).*
+> 💡 *El botón "Añadir a Discord" está en la web. Si quieres un enlace de invitación directo en el README, pega aquí la URL de autorización OAuth2 del bot.*
 
 ---
 
@@ -112,13 +112,32 @@ Lo que Luna NET ya hace hoy en tu servidor:
 
 ## 💎 Premium
 
-Luna NET ofrece un plan **Premium** opcional con funciones y beneficios ampliados.
+Luna NET ofrece tres planes Premium opcionales. Pagos seguros mediante **PayPal** y **MercadoPago** (Moon Studios no accede a tus datos bancarios completos).
 
-- Pagos gestionados de forma segura mediante **PayPal** y **MercadoPago**.
-- Moon Studios no tiene acceso a tus datos bancarios completos.
-- Consulta beneficios y precios actuales en la web oficial o en el servidor de soporte.
+### 🌙 BASIC — **$3 USD**
+*Perfecto para empezar · 7 días de acceso*
+- ✅ Acceso a comandos premium básicos
+- ✅ Soporte prioritario
+- ✅ Badge especial en el perfil
 
-> ⚠️ *Añade aquí la tabla de beneficios y precios reales del plan Premium.*
+### ⚡ PRO — **$7 USD** &nbsp;·&nbsp; ⭐ *Más popular*
+*El favorito de la comunidad · 30 días de acceso*
+- ✅ Todos los comandos premium
+- ✅ Soporte prioritario 24/7
+- ✅ Badge especial en el perfil
+- ✅ Estadísticas avanzadas
+- ✅ Personalización de bot
+
+### 🌑 ELITE — **$20 USD**
+*Para los más exigentes · 90 días de acceso*
+- ✅ Todos los beneficios PRO
+- ✅ Acceso anticipado a funciones
+- ✅ API privada
+- ✅ Webhook personalizado
+- ✅ Soporte dedicado
+- ✅ Backup automático de datos
+
+> 🔒 Pago encriptado &nbsp;·&nbsp; ⚡ Activación instantánea &nbsp;·&nbsp; 🔁 Sin renovación automática &nbsp;·&nbsp; 📧 Factura por email
 
 ---
 
@@ -160,24 +179,20 @@ La privacidad es una prioridad. En resumen:
 
 ## 📜 Novedades
 
-> 🗒️ Sigue [Keep a Changelog](https://keepachangelog.com/es-ES/) y [SemVer](https://semver.org/lang/es/).
-> ⚠️ **Rellena esta sección con los cambios reales de cada versión.** Las entradas de abajo son una plantilla de ejemplo.
+Lo nuevo en cada actualización de Luna NET. 🌙
 
-### `v2.0.9` — *(añadir fecha)*
+### ✨ Versión 2.0.9
 
-**✨ Añadido**
-- *(nuevas funciones de esta versión)*
+> *Cuéntale a tu comunidad qué trae esta versión. Borra los ejemplos y escribe tus cambios reales.*
 
-**🎨 Estilos / Mejoras visuales**
-- *(cambios de interfaz, nuevos banners o temas)*
+- 🌟 **Novedades:** *(las funciones nuevas que añadiste)*
+- 🎨 **Estilos:** *(nuevos banners, colores o cambios visuales)*
+- ⚡ **Mejoras:** *(rendimiento, comandos más rápidos…)*
+- 🐛 **Arreglos:** *(errores corregidos)*
 
-**🔧 Cambiado**
-- *(mejoras de rendimiento, ajustes de comandos)*
+---
 
-**🐛 Corregido**
-- *(errores solucionados)*
-
-> Versiones anteriores: *(añade aquí el histórico de `v2.0.x` y `v1.x`)*.
+🗓️ *Las versiones anteriores se irán listando aquí debajo a medida que publiques nuevas actualizaciones.*
 
 ---
 
@@ -244,15 +259,15 @@ Consulta el archivo [`LICENSE`](./LICENSE) y los [`TERMS.md`](./TERMS.md) para l
 
 <p align="center">
   <a href="https://discord.gg/5dR8p733Ac"><img src="https://img.shields.io/badge/Discord-Soporte-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=15101f" alt="Discord"></a>
-  <a href="https://lunanet.nellyx.xyz"><img src="https://img.shields.io/badge/Web-lunanet.nellyx.xyz-9d6bff?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=15101f" alt="Web"></a>
+  <a href="https://luna-net.netlify.app/"><img src="https://img.shields.io/badge/Web-luna--net.netlify.app-9d6bff?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=15101f" alt="Web"></a>
   <a href="mailto:studios.soporteplaykia@gmail.com"><img src="https://img.shields.io/badge/Email-soporte-ff8fc8?style=for-the-badge&logo=gmail&logoColor=white&labelColor=15101f" alt="Email"></a>
 </p>
 
-- 🌐 **Sitio web:** `lunanet.nellyx.xyz`
+- 🌐 **Sitio web:** [luna-net.netlify.app](https://luna-net.netlify.app/)
 - 💬 **Servidor de soporte:** [discord.gg/5dR8p733Ac](https://discord.gg/5dR8p733Ac)
 - 📧 **Correo:** `studios.soporteplaykia@gmail.com`
 
-> ⚠️ **Dominio:** tu marca aparece en tres direcciones distintas — `lunanet.gg` (en los banners), `luna-net.netlify.app` (el enlace que me diste) y `lunanet.nellyx.xyz` (el dominio que tu propio sitio declara como canónico). Usé este último; **confirma cuál es el oficial y deja solo ese** en todo el README.
+> 💡 **SEO:** tu sitio en Netlify declara `lunanet.nellyx.xyz` como dominio canónico en sus metadatos. Como el oficial es `luna-net.netlify.app`, actualiza la etiqueta `<link rel="canonical">` de tu web para que apunte ahí; de lo contrario, los buscadores priorizarán el otro dominio.
 
 ---
 
