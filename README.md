@@ -21,7 +21,7 @@
   <img src="https://img.shields.io/badge/plataforma-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=15101f" alt="Discord">
   <img src="https://img.shields.io/badge/idiomas-ES%20%E2%87%84%20JP-c9a0ff?style=for-the-badge&labelColor=15101f" alt="Idiomas">
   <img src="https://img.shields.io/badge/licencia-propietaria-ff5d5d?style=for-the-badge&labelColor=15101f" alt="Software propietario">
-  <img src="https://img.shields.io/badge/by-Moon%20Studios-b083ff?style=for-the-badge&labelColor=15101f" alt="Moon Studios">
+  <img src="https://img.shields.io/badge/by-Moon%20Studios%20%26%20Nellyx-b083ff?style=for-the-badge&labelColor=15101f" alt="Moon Studios & Nellyx">
 </p>
 
 <p align="center">
@@ -50,6 +50,7 @@
 - [🪪 Licencia](#-licencia)
 - [🖼️ Galería](#-galería)
 - [💜 Soporte & enlaces](#-soporte--enlaces)
+- [🏢 Desarrollado por](#-desarrollado-por)
 
 ---
 
@@ -59,7 +60,7 @@
   <img src="./assets/hero.png" alt="Luna NET" width="65%">
 </p>
 
-**Luna NET** es un bot todo-en-uno para Discord desarrollado por **Moon Studios**, con una identidad propia inspirada en la **estética anime** y la **cultura japonesa**. Reúne moderación, niveles, tickets, música, perfiles, traducción y un panel de control web en una sola asistente, con una personalidad potenciada por **IA**.
+**Luna NET** es un bot todo-en-uno para Discord desarrollado por **Moon Studios** y **Nellyx**, con una identidad propia inspirada en la **estética anime** y la **cultura japonesa**. Reúne moderación, niveles, tickets, música, perfiles, traducción y un panel de control web en una sola asistente, con una personalidad potenciada por **IA**.
 
 El objetivo no es ser "un bot más", sino que cada comunidad sienta que tiene una asistente con personalidad e identidad visual propias.
 
@@ -267,7 +268,17 @@ Consulta el archivo [`LICENSE`](./LICENSE) y los [`TERMS.md`](./TERMS.md) para l
 - 💬 **Servidor de soporte:** [discord.gg/5dR8p733Ac](https://discord.gg/5dR8p733Ac)
 - 📧 **Correo:** `studios.soporteplaykia@gmail.com`
 
-> 💡 **SEO:** tu sitio en Netlify declara `lunanet.nellyx.xyz` como dominio canónico en sus metadatos. Como el oficial es `luna-net.netlify.app`, actualiza la etiqueta `<link rel="canonical">` de tu web para que apunte ahí; de lo contrario, los buscadores priorizarán el otro dominio.
+---
+
+## 🏢 Desarrollado por
+
+**Luna NET** es un proyecto desarrollado en conjunto por **Moon Studios** y **Nellyx**.
+
+<p align="center">
+  <img src="./assets/moon-studios.png" alt="Moon Studios" height="64">
+  &nbsp;&nbsp;&nbsp;✕&nbsp;&nbsp;&nbsp;
+  <img src="./assets/nellyx.png" alt="Nellyx" height="64">
+</p>
 
 ---
 
@@ -280,5 +291,5 @@ Consulta el archivo [`LICENSE`](./LICENSE) y los [`TERMS.md`](./TERMS.md) para l
 </p>
 
 <p align="center">
-  <sub>Desarrollado con 💜 por <b>Moon Studios</b>, bajo la luz de la luna.</sub>
+  <sub>Desarrollado con 💜 por <b>Moon Studios</b> y <b>Nellyx</b>, bajo la luz de la luna.</sub>
 </p>
